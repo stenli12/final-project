@@ -1,5 +1,5 @@
-const clockContainer = document.querySelector(".clock"); // зробили зміну для класу годиника
+const clockContainer = document.querySelector(".clock");
 function updateClock() {
-  clockContainer.innerText = new Date().toLocaleTimeString(); //якимось чином функція запрацювала
+  clockContainer.innerText = new Date().toLocaleTimeString();
 }
-setInterval(updateClock, 1000); // зробили інтервал для годиника
+setInterval(updateClock, 1000);
